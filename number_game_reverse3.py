@@ -13,6 +13,7 @@ def max_min(too_high, too_low):
         lower = 1
     return lower, upper
 
+#comp makes a new guess
 def new_guess(too_high, too_low):
     #get upper and lower bounds
     bounds = max_min(too_high, too_low)        
